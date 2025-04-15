@@ -1,0 +1,10 @@
+COMPONENTES BASICOS
+  -view
+  -image
+  -scrollview
+  -text
+  -text input
+  -stylesheet
+COMPONENTES DE UI
+    -button
+    -switch
