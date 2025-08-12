@@ -1,62 +1,51 @@
-Guia de Configuração e Desenvolvimento
+# Guia de Configuração e Desenvolvimento
+
 <img src="https://pbs.twimg.com/profile_images/1876765399687049216/kLaAM_SN_400x400.jpg" alt="Avatar" width="100" align="right">
-1️⃣ Configurando o computador da escola com o GitHub
-Abra o Git Bash.
 
-Configure seu usuário do GitHub:
+## 1️⃣ Configurando o computador da escola com o GitHub
 
-bash
-Copiar
-Editar
-git config --global user.name "SeuNomeNoGitHub"
-git config --global user.email "SeuEmailDoGitHub"
-Confira se está tudo certo:
+1. Abra o **Git Bash**.  
+2. Configure seu usuário do GitHub:  
+   ```bash
+   git config --global user.name "SeuNomeNoGitHub"
+   git config --global user.email "SeuEmailDoGitHub"
+   ```
+3. Confira se está tudo certo:  
+   ```bash
+   git config --list
+   ```
+4. Clone o repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+5. Entre na pasta do projeto:  
+   ```bash
+   cd seu-repositorio
+   ```
 
-bash
-Copiar
-Editar
-git config --list
-Clone o repositório:
+---
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Entre na pasta do projeto:
+## 2️⃣ Criando um projeto Expo
 
-bash
-Copiar
-Editar
-cd seu-repositorio
-2️⃣ Criando um projeto Expo
-Instale o Node.js (versão LTS) em nodejs.org.
-
-Instale o Expo CLI:
-
-bash
-Copiar
-Editar
-npm install -g expo-cli
-Crie o projeto:
-
-bash
-Copiar
-Editar
-npx create-expo-app nome-do-projeto
-cd nome-do-projeto
-(Opcional) Instale dependências úteis:
-
-bash
-Copiar
-Editar
-npm install @react-navigation/native
-npm install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native-stack
-npm install @react-navigation/bottom-tabs
-npm install @react-native-async-storage/async-storage
-Inicie o app:
-
-bash
-Copiar
-Editar
-npx expo start
+1. **Instale o Node.js** (versão LTS) em [nodejs.org](https://nodejs.org/).  
+2. Instale o Expo CLI:  
+   ```bash
+   npm install -g expo-cli
+   ```
+3. Crie o projeto:  
+   ```bash
+   npx create-expo-app nome-do-projeto
+   cd nome-do-projeto
+   ```
+4. (Opcional) Instale dependências úteis:  
+   ```bash
+   npm install @react-navigation/native
+   npm install react-native-screens react-native-safe-area-context
+   npm install @react-navigation/native-stack
+   npm install @react-navigation/bottom-tabs
+   npm install @react-native-async-storage/async-storage
+   ```
+5. Inicie o app:  
+   ```bash
+   npx expo start
+   ```
