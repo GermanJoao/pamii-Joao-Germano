@@ -37,15 +37,7 @@
    npx create-expo-app nome-do-projeto
    cd nome-do-projeto
    ```
-4. (Opcional) Instale dependências úteis:  
-   ```bash
-   npm install @react-navigation/native
-   npm install react-native-screens react-native-safe-area-context
-   npm install @react-navigation/native-stack
-   npm install @react-navigation/bottom-tabs
-   npm install @react-native-async-storage/async-storage
-   ```
-5. Inicie o app:  
+4. Inicie o app:  
    ```bash
    npx expo start
    ```
