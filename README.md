@@ -1,6 +1,6 @@
 # Guia de Configuração e Desenvolvimento
 
-<img src="https://pbs.twimg.com/profile_images/1876765399687049216/kLaAM_SN_400x400.jpg" alt="Avatar" width="100" align="right">
+<img src="https://pbs.twimg.com/profile_images/1876765399687049216/kLaAM_SN_400x400.jpg" alt="Avatar" width="400" align="center">
 
 ## 1️⃣ Configurando o computador da escola com o GitHub
 
